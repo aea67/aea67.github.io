@@ -1,0 +1,63 @@
+@page {
+  size: 5.5in 8.5in;
+}
+
+#mainnav,
+#intnav,
+#footer,
+#address{
+  display: none; /*makes the sections dissaper*/
+}
+
+body{
+  background: white;
+  color: black;
+  font-family: "Adobe Garamond Pro", "Perpetua", serif;
+  font-size: 11pt;
+  line-height: 1.5;
+}
+img{
+  max-width: 400px; /*so theu dont bleed off the page */
+}
+
+@page {
+  margin-top: 1in;
+  margin: 0.5in;
+}
+
+h1, h2, h3{
+  margin: 0;
+  font-family: "Adobe Garamond Pro", "Perpetua", serif;
+}
+
+h1 {
+  font-size: 20pt;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3, {
+  margin: 0;
+  font-size: 14pt;
+}
+
+
+a:link,
+a:visited {  /* changes link when goes to print */
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+section {
+  margin-bottom: 0.2in;
+}
+
+table th {
+  text-align: left;
+  padding-right: 0.2in;
+}

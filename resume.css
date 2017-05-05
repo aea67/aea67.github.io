@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+    background-color: papayawhip;
+    color: plum;
+}
+#intnav {
+  background-color: mistyrose;
+  list-style:none;
+}
+#mainnav {
+  background-color: tan; /*only shows when height is declared*/
+  list-style: none; /* removes bullets */ /*but what about underlines*/
+  height: 18px;
+  margin: 0;
+  padding: 0;
+}
+#mainnav li a{
+  float: left; /*makes bar horizontal */
+  width: 130px;
+  text-align: center; /* centers links */
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#mainnav li a:hover{
+  background-color: khaki;
+}
+ul {
+  margin-top: 0;
+}
+nav ul li { /*styles both extnav and intnav */
+  list-style: none;  /*For some reason you have to leave off <ul></ul> tags to work*/
+}
+ul li { /* styles ul li of the work experience lists, not nav */
+  color:darkslateblue;
+}
+h1, h2, h3 {
+  clear: both; /* in order for "Agnes Archibong Resume" to not ride up on mainnav*/
+  font-family: Open Sans;
+  margin-bottom: 0;
+}
+h1 {
+  margin-top: 10px; /* "Agnes A Resume is now spaced from mainnav */"
+  font-size: 30px;
+  color:midnightblue;
+}
+h2 {
+  color: darkmagenta;
+}
+#section {
+  margin-top: 0;
+}
+#workx{
+  margin-bottom: 0;
+}
+#eltm{
+  margin-top: 0;
+}
+h3 {
+  color:darkmagenta;
+}
+p {
+  color:navy;
+  margin-top: 0;
+  margin: 0;
+}
+a {
+  color:inherit; /*gets color from ul li */
+  font-size:15px;
+  font-family:
+}
+a:hover {
+  color:dodgerblue;
+  font-weight:800;
+}
+
+table, td, th {
+  border: 1px solid midnightblue;
+  margin: 10px;
+  background-color: seashell;
+  color: darkmagenta;
+}
+
+#edu{
+}
+#footr {
+  background-color: tan;
+}
